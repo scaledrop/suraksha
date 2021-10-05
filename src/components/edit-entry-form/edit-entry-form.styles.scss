@@ -1,0 +1,76 @@
+@import "../../variables.scss";
+.edit-entry-form-container {
+  display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.date-and-cancel-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-entry-form-date-display {
+  margin: 0;
+}
+
+.edit-entry-form-cancel-icon {
+  color: lightgrey;
+
+  &:hover {
+    color: grey;
+  }
+}
+
+.edit-entry-form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0 35px 0;
+    border: 1px solid grey;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+
+    &:focus {
+      outline: none;
+    }
+}
+
+.edit-entry-form-buttons-container {
+  display: flex;
+}
+
+.edit-entry-form-delete-button {
+  min-width: 135px;
+  width: auto;
+  height: 50px;
+  font-size: 15px;
+  font-family: 'Lato';
+  font-weight: 700;
+  background-color: white;
+  color: $peach-color;
+  margin-right: 5px;
+  border: 1px solid $peach-color;
+  border-radius: 0;
+
+  &:focus {
+    outline: none !important;
+    outline-offset: none !important;
+  }
+
+  &:hover {
+    background-color: $peach-color;
+    border: none;
+    color: white;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+
+

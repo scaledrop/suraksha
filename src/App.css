@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lato';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    outline: none;
+}
+h3{
+    font-size: 21px;
+}
+h5{
+    font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Medium devices 768px and up */
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 20px 0;
+    }
+}

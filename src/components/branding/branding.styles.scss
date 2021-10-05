@@ -1,0 +1,30 @@
+@import "../../variables.scss";
+.branding-bpm {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.user {
+  color: $blue-color;
+}
+
+.heartbeat {
+  color: $peach-color;
+}
+
+.weight {
+  color: $green-color;
+}
+
+.note {
+  color: $primary-color;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.icon-div {
+    margin-bottom: 20px;
+}

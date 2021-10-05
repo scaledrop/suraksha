@@ -1,0 +1,8 @@
+@import "../../variables.scss";
+.error-message {
+    width: 100%;
+    max-width: 300px;
+    background-color: $alert-color;
+    color: white;
+    margin: 0 auto 25px auto;
+}
