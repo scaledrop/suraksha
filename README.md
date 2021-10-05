@@ -49,5 +49,6 @@ Suraksha is a React app with Firebase utilities designed to help you monitor you
     yarn start  # Running production server
  ```
  Now the app should be running at http://localhost:3000
+ #### [Live Demo](https://master.d3pvq18ih5sruh.amplifyapp.com/)
 
 
