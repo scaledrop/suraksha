@@ -28,7 +28,7 @@ Suraksha is a React app with Firebase utilities designed to help you monitor you
     yarn firebase
  ```
  
- Enter the config values in the ./src/utils/firebase.utils.js
+ Enter the config values in the ./src/firebase/firebase.utils.js
  ```
  const config = {
     apiKey: "",
